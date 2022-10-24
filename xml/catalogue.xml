@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogue>
+    <game>
+        <title>Counter-Strike: Global Offensive</title>
+        <genre>First-Person Shooter</genre>
+        <developer>Valve, Hidden Path Entertainment</developer>
+        <price>0</price>
+        <rating>88</rating>
+        <description>Counter-Strike: Global Offensive (CS: GO) expands upon the team-based action gameplay that it pioneered when it was launched 19 years ago. 
+            CS: GO features new maps, characters, weapons, and game modes, and delivers updated versions of the classic CS content (de_dust2, etc.).</description>
+        <image>../img/csgo.png</image>
+    </game>
+    <game>
+        <title></title>
+        <genre></genre>
+        <developer></developer>
+        <price></price>
+        <rating></rating>
+        <description></description>
+        <image></image>
+    </game>
+    <game>
+        <title></title>
+        <genre></genre>
+        <developer></developer>
+        <price></price>
+        <rating></rating>
+        <description></description>
+        <image></image>
+    </game>
+</catalogue>
