@@ -3,18 +3,161 @@
 <catalogue>
     <game>
         <title>Counter-Strike: Global Offensive</title>
-        <genre>First-Person Shooter</genre>
-        <developer>Valve, Hidden Path Entertainment</developer>
+        <genres>
+            <genre>First-Person Shooter</genre>
+            <genre>Competitive</genre>
+        </genres>
+        <developers>
+            <developer>Valve</developer>
+            <developer>Hidden Path Entertainment</developer>
+        </developers>
         <price>0</price>
         <rating>88</rating>
         <description>Counter-Strike: Global Offensive (CS: GO) expands upon the team-based action gameplay that it pioneered when it was launched 19 years ago. 
             CS: GO features new maps, characters, weapons, and game modes, and delivers updated versions of the classic CS content (de_dust2, etc.).</description>
-        <image>../img/csgo.png</image>
+        <image>../img/csgo.jpg</image>
+    </game>
+    <game>
+        <title>Terraria</title>
+        <genres>
+            <genre>Sandbox</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Re-Logic</developer>
+        </developers>
+        <price>11.99</price>
+        <rating>97</rating>
+        <description>Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!</description>
+        <image>../img/terraria.jpg</image>
+    </game>
+    <game>
+        <title>Rocket League</title>
+        <genres>
+            <genre>Competitive</genre>
+            <genre>Soccer</genre>
+        </genres>
+        <developers>
+            <developer>Psyonix LLC</developer>
+        </developers>
+        <price>0</price>
+        <rating>89</rating>
+        <description>Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. 
+            Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...</description>
+        <image>../img/rl.jpg</image>
+    </game>
+    <game>
+        <title>Rust</title>
+        <genres>
+            <genre>Survival</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Facepunch Studios</developer>
+        </developers>
+        <price>59.95</price>
+        <rating>87</rating>
+        <description>The only aim in Rust is to survive. Everything wants you to die - the island's wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.</description>
+        <image>../img/rust.jpg</image>
+    </game>
+    <game>
+        <title>Grand Theft Auto V</title>
+        <genres>
+            <genre>Action</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Rockstar North</developer>
+        </developers>
+        <price>72.99</price>
+        <rating>85</rating>
+        <description>Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.</description>
+        <image>../img/gta5.jpg</image>
+    </game>
+    <game>
+        <title>ARK: Survival Evolved</title>
+        <genres>
+            <genre>Survival</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Studio Wildcard</developer>
+            <developer>Instinct Games</developer>
+            <developer>Efecto Studios</developer>
+            <developer>Virtual Basement LLC</developer>
+        </developers>
+        <price>24.79</price>
+        <rating>83</rating>
+        <description>Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!</description>
+        <image>../img/ark.jpg</image>
+    </game>
+    <game>
+        <title>Sid Meier's Civilization VI</title>
+        <genres>
+            <genre>Turn-Based Strategy</genre>
+            <genre>Historical</genre>
+        </genres>
+        <developers>
+            <developer>Firaxis Games</developer>
+            <developer>Aspyr</developer>
+        </developers>
+        <price>99.95</price>
+        <rating>84</rating>
+        <description>Civilization VI is the newest installment in the award winning Civilization Franchise. Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?</description>
+        <image>../img/civ6.jpg</image>
+    </game>
+    <game>
+        <title>Borderlands 2</title>
+        <genres>
+            <genre>First-Person Shooter</genre>
+            <genre>Loot</genre>
+        </genres>
+        <developers>
+            <developer>Gearbox Software</developer>
+            <developer>Aspyr</developer>
+        </developers>
+        <price>29.99</price>
+        <rating>95</rating>
+        <description>The Ultimate Vault Hunter's Upgrade lets you get the most out of the Borderlands 2 experience.</description>
+        <image>../img/bl2.jpg</image>
+    </game>
+    <game>
+        <title>Stardew Valley</title>
+        <genres>
+            <genre>Farming</genre>
+            <genre>Role-Playing Game</genre>
+        </genres>
+        <developers>
+            <developer>ConcernedApe</developer>
+        </developers>
+        <price>17.99</price>
+        <rating>98</rating>
+        <description>You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. 
+            Can you learn to live off the land and turn these overgrown fields into a thriving home?</description>
+        <image>../img/sv.jpg</image>
+    </game>
+    <game>
+        <title>Elden Ring</title>
+        <genres>
+            <genre>Souls-Like</genre>
+            <genre>Role-Playing Game</genre>
+        </genres>
+        <developers>
+            <developer>FromSoftware Inc.</developer>
+        </developers>
+        <price>99.99</price>
+        <rating>90</rating>
+        <description>THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.</description>
+        <image>../img/er.jpg</image>
     </game>
     <game>
         <title></title>
-        <genre></genre>
-        <developer></developer>
+        <genres>
+            <genre></genre>
+        </genres>
+        <developers>
+            <developer></developer>
+        </developers>
         <price></price>
         <rating></rating>
         <description></description>
@@ -22,8 +165,25 @@
     </game>
     <game>
         <title></title>
-        <genre></genre>
-        <developer></developer>
+        <genres>
+            <genre></genre>
+        </genres>
+        <developers>
+            <developer></developer>
+        </developers>
+        <price></price>
+        <rating></rating>
+        <description></description>
+        <image></image>
+    </game>
+    <game>
+        <title></title>
+        <genres>
+            <genre></genre>
+        </genres>
+        <developers>
+            <developer></developer>
+        </developers>
         <price></price>
         <rating></rating>
         <description></description>
