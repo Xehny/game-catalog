@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../font/LatoWeb-Regular.ttf") format("woff2");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../font/Raleway-Regular.ttf") format("woff2");
+}
+
+body {
+    width: 50%;
+    min-width: 200px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+td {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+th {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 10px;
+}
