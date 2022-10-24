@@ -1,3 +1,3 @@
 <?php
-//Test
+echo("This is working");
 ?>
