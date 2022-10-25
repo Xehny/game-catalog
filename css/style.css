@@ -37,8 +37,45 @@ table, th, td {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
-
     background: #f1f1f1;
     width: 70%;
     color: black;
+}
+
+h1, h4 {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+.body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+img {
+    float: left;
+    margin-right: 30px;
+    border-radius: 16px;
+}
+
+.details {
+    text-align: left;
+}
+
+.button {
+    border: none;
+    background-color: #666666;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-top: 40px;
+    color: white;
+}
+
+.button:hover {
+    background-color: #494949;
+    cursor: pointer;
 }

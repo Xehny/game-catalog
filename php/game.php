@@ -12,8 +12,8 @@ else {
 }
 
 foreach ($catalogue as $game) {
-    if (strcmp($game->title, $_POST("title") == 0)) {
-        
+    if (strcmp($game->title, $_POST["title"]) == 0) {
+        $cur = $game;
     }
 }
 ?>
@@ -27,6 +27,48 @@ foreach ($catalogue as $game) {
         <title>Assignment 4</title>
     </head>
     <body>
-        <?php echo $_POST["title"]?>
+        <?php 
+        echo "<h1>$cur->title</h1>";
+        $i = 1;
+        echo "<h4>";
+        foreach ($cur->genres->genre as $genre) {
+            if ($i < $cur->genres->genre->count()) {
+                echo "$genre, ";
+                $i++;
+            }
+            else {
+                echo "$genre</h4><br>";
+            }
+        }
+        echo "<div class='body'>";
+        echo "<img src=../img/$cur->image alt='$cur->title'>";
+        echo "<div class='details'>";
+        $i = 1;
+        echo "Developer: ";
+        foreach ($cur->developers->developer as $developer) {
+            if ($i < $cur->developers->developer->count()) {
+                echo "$developer, ";
+                $i++;
+            }
+            else {
+                echo "$developer<br><br>";
+            }
+        }
+        echo "Price: ";
+        if ($cur->price == 0) {
+            echo "Free<br><br>";
+        }
+        else{
+            echo "$$cur->price<br><br>";
+        }
+        
+        echo "Rating: $cur->rating%<br><br>";
+        echo "Description:<br> $cur->description<br>";
+        echo "</div></div>"
+        ?>
+
+        <form class="form" id="home" action="../index.php" method="post">
+            <input type="submit" class="button" value="Home">
+        </form>
     </body>
 </html>

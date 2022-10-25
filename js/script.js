@@ -26,19 +26,36 @@ if (fileName == "index.php" || fileName == "") {
         form.submit();
     }
 
+    let gameTitles = [];
+
     for (let game of games) {
         game.addEventListener("click", buttonPressed);
+        gameTitles.push(game.firstChild.innerHTML);
     }
 
     const searchInput = document.querySelector("[data-search]")
 
     searchInput.addEventListener("input", (e) => {
         const val = e.target.value
-        console.log(val)
-    })
-}
-else {
+        // gameTitles.forEach(title => {
+        //     const isVisible = title.includes(val)
+        //     getElementById(title).parentNode.
+        // })
+        for(var y = 0; y < (gameTitles.length -1), y++;){
 
+            //games[y].style.display = 'none';
+
+            //games[y].firstChild.innerHTML
+            if(gameTitles[y].includes(value)){
+                games[y].style.display = 'block'
+            }
+            else{
+                console
+                games[y].style.display = 'hide'
+            }
+        }
+        
+    })
 }
 
 function sort(col) {
