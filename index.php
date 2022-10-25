@@ -11,14 +11,11 @@ else {
     exit("Failed to open catalogue.xml");
 }
 
-session_start();
 $games = array();
 
 foreach ($catalogue as $game) {
     array_push($games, $game);
 }
-
-$_SESSION["games"] = $games;
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +27,8 @@ $_SESSION["games"] = $games;
         <title>Assignment 4</title>
     </head>
     <body>
-        <table>
+        <input type="text" placeholder="Search.." id="SearchBar" data-search>
+        <table id="GameTable">
             <tr>
                 <th id="title">Title</th>
                 <th id="price">Price</th>

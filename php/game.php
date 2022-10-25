@@ -2,10 +2,20 @@
 ini_set("error_reporting",E_ALL);
 ini_set("log_errors","1");
 ini_set("display_errors",false);
-ini_set("error_log","log/php_errors.txt");
+ini_set("error_log","../log/php_errors.txt");
 
-session_start();
+if (file_exists("../xml/catalogue.xml")) {
+    $catalogue = simplexml_load_file("../xml/catalogue.xml");
+}
+else {
+    exit("Failed to open catalogue.xml");
+}
 
+foreach ($catalogue as $game) {
+    if (strcmp($game->title, $_POST("title") == 0)) {
+        
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +27,6 @@ session_start();
         <title>Assignment 4</title>
     </head>
     <body>
-        <?php echo $_POST["game"]?>
+        <?php echo $_POST["title"]?>
     </body>
 </html>
