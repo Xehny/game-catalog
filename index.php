@@ -10,6 +10,15 @@ if (file_exists("xml/catalogue.xml")) {
 else {
     exit("Failed to open catalogue.xml");
 }
+
+session_start();
+$games = array();
+
+foreach ($catalogue as $game) {
+    array_push($games, $game);
+}
+
+$_SESSION["games"] = $games;
 ?>
 
 <!DOCTYPE html>
@@ -29,10 +38,10 @@ else {
             </tr>
             <?php
             foreach ($catalogue as $game) {
-                echo "<tr>";
-                echo "<td>$game->title</td>";
-                echo "<td>$$game->price</td>";
-                echo "<td>$game->rating%</td>";
+                echo "<tr class=\"game\">";
+                echo "<td id='$game->title'>$game->title</td>";
+                echo "<td id='$game->title'>$$game->price</td>";
+                echo "<td id='$game->title'>$game->rating%</td>";
                 echo "</tr>";
             }
             ?>
