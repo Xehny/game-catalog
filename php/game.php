@@ -41,7 +41,7 @@ foreach ($catalogue as $game) {
             }
         }
         echo "<div class='body'>";
-        echo "<img src=../img/$cur->image alt='$cur->title'>";
+        echo "<div><img src=../img/$cur->image alt='$cur->title'></div>";
         echo "<div class='details'>";
         $i = 1;
         echo "Developer: ";

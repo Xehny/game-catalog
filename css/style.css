@@ -28,12 +28,15 @@ th {
 
 table, th, td {
     border-collapse: collapse;
-    border: 1px solid;
     padding: 10px;
 }
 
+table {
+    text-align: center;
+    margin: auto;
+}
+
 #SearchBar {
-    float: left;
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
@@ -49,12 +52,14 @@ h1, h4 {
 .body {
     font-family: Lato, Arial, Helvetica, sans-serif;
     display: inline-block;
+    position: relative;
+    vertical-align: bottom;
 }
 
 img {
     float: left;
     margin-right: 30px;
-    border-radius: 16px;
+    border-radius: 12px;
 }
 
 .details {
@@ -78,4 +83,21 @@ img {
 .button:hover {
     background-color: #494949;
     cursor: pointer;
+}
+
+.game {
+    background-color: rgb(22, 22, 22);
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.game:hover {
+    background-color: rgb(27, 27, 27);
+}
+
+.image {
+    width: 200px;
+    height: auto;
 }

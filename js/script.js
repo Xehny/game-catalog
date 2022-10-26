@@ -37,10 +37,10 @@ if (fileName == "index.php" || fileName == "") {
 
     searchInput.addEventListener("input", (e) => {
         const val = e.target.value
-        // gameTitles.forEach(title => {
-        //     const isVisible = title.includes(val)
-        //     getElementById(title).parentNode.
-        // })
+        gameTitles.forEach(title => {
+            const isVisible = title.includes(val);
+            getElementById(title).parentNode;
+        });
         for(var y = 0; y < (gameTitles.length -1), y++;){
 
             //games[y].style.display = 'none';
