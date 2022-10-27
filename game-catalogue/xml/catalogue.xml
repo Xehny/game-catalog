@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogue>
+    <game>
+        <title>Counter-Strike: Global Offensive</title>
+        <genres>
+            <genre>First-Person Shooter</genre>
+            <genre>Competitive</genre>
+        </genres>
+        <developers>
+            <developer>Valve</developer>
+            <developer>Hidden Path Entertainment</developer>
+        </developers>
+        <price>0</price>
+        <rating>88</rating>
+        <description>Counter-Strike: Global Offensive (CS: GO) expands upon the team-based action gameplay that it pioneered when it was launched 19 years ago. 
+            CS: GO features new maps, characters, weapons, and game modes, and delivers updated versions of the classic CS content (de_dust2, etc.).</description>
+        <image>csgo.jpg</image>
+    </game>
+    <game>
+        <title>Terraria</title>
+        <genres>
+            <genre>Sandbox</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Re-Logic</developer>
+        </developers>
+        <price>11.99</price>
+        <rating>97</rating>
+        <description>Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!</description>
+        <image>terraria.jpg</image>
+    </game>
+    <game>
+        <title>Rocket League</title>
+        <genres>
+            <genre>Competitive</genre>
+            <genre>Soccer</genre>
+        </genres>
+        <developers>
+            <developer>Psyonix LLC</developer>
+        </developers>
+        <price>0</price>
+        <rating>89</rating>
+        <description>Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. 
+            Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...</description>
+        <image>rl.jpg</image>
+    </game>
+    <game>
+        <title>Rust</title>
+        <genres>
+            <genre>Survival</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Facepunch Studios</developer>
+        </developers>
+        <price>59.95</price>
+        <rating>87</rating>
+        <description>The only aim in Rust is to survive. Everything wants you to die - the island's wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.</description>
+        <image>rust.jpg</image>
+    </game>
+    <game>
+        <title>Grand Theft Auto V</title>
+        <genres>
+            <genre>Action</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Rockstar North</developer>
+        </developers>
+        <price>54.95</price>
+        <rating>85</rating>
+        <description>Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.</description>
+        <image>gta5.jpg</image>
+    </game>
+    <game>
+        <title>ARK: Survival Evolved</title>
+        <genres>
+            <genre>Survival</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Studio Wildcard</developer>
+            <developer>Instinct Games</developer>
+            <developer>Efecto Studios</developer>
+            <developer>Virtual Basement LLC</developer>
+        </developers>
+        <price>24.79</price>
+        <rating>83</rating>
+        <description>Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!</description>
+        <image>ark.jpg</image>
+    </game>
+    <game>
+        <title>Sid Meiers Civilization VI</title>
+        <genres>
+            <genre>Turn-Based Strategy</genre>
+            <genre>Historical</genre>
+        </genres>
+        <developers>
+            <developer>Firaxis Games</developer>
+            <developer>Aspyr</developer>
+        </developers>
+        <price>99.95</price>
+        <rating>84</rating>
+        <description>Civilization VI is the newest installment in the award winning Civilization Franchise. Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?</description>
+        <image>civ6.jpg</image>
+    </game>
+    <game>
+        <title>Borderlands 2</title>
+        <genres>
+            <genre>First-Person Shooter</genre>
+            <genre>Loot</genre>
+        </genres>
+        <developers>
+            <developer>Gearbox Software</developer>
+            <developer>Aspyr</developer>
+        </developers>
+        <price>29.99</price>
+        <rating>95</rating>
+        <description>The Ultimate Vault Hunter's Upgrade lets you get the most out of the Borderlands 2 experience.</description>
+        <image>bl2.jpg</image>
+    </game>
+    <game>
+        <title>Stardew Valley</title>
+        <genres>
+            <genre>Farming</genre>
+            <genre>Role-Playing Game</genre>
+        </genres>
+        <developers>
+            <developer>ConcernedApe</developer>
+        </developers>
+        <price>17.99</price>
+        <rating>98</rating>
+        <description>You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. 
+            Can you learn to live off the land and turn these overgrown fields into a thriving home?</description>
+        <image>sv.jpg</image>
+    </game>
+    <game>
+        <title>Elden Ring</title>
+        <genres>
+            <genre>Souls-Like</genre>
+            <genre>Role-Playing Game</genre>
+        </genres>
+        <developers>
+            <developer>FromSoftware Inc.</developer>
+        </developers>
+        <price>99.99</price>
+        <rating>90</rating>
+        <description>THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.</description>
+        <image>er.jpg</image>
+    </game>
+    <game>
+        <title>Cyberpunk 2077</title>
+        <genres>
+            <genre>Cyberpunk</genre>
+            <genre>Open World</genre>
+            <genre>Role-Playing Game</genre>
+        </genres>
+        <developers>
+            <developer>CD PROJEKT RED</developer>
+        </developers>
+        <price>99.99</price>
+        <rating>77</rating>
+        <description>Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.</description>
+        <image>cp2077.jpg</image>
+    </game>
+    <game>
+        <title>The Elder Scrolls V: Skyrim</title>
+        <genres>
+            <genre>Role-Playing Game</genre>
+            <genre>Open World</genre>
+        </genres>
+        <developers>
+            <developer>Bethesda Game Studios</developer>
+        </developers>
+        <price>69.95</price>
+        <rating>94</rating>
+        <description>Winner of more than 200 Game of the Year Awards, Skyrim Special Edition brings the epic fantasy to life in stunning detail. 
+            The Special Edition includes the critically acclaimed game and add-ons with all-new features like remastered art and effects, volumetric god rays, dynamic depth of field, screen-space reflections, and more.</description>
+        <image>skyrim.jpg</image>
+    </game>
+    <game>
+        <title>Portal 2</title>
+        <genres>
+            <genre>Puzzle</genre>
+            <genre>Platformer</genre>
+        </genres>
+        <developers>
+            <developer>Valve</developer>
+        </developers>
+        <price>12.39</price>
+        <rating>98</rating>
+        <description>The "Perpetual Testing Initiative" has been expanded to allow you to design co-op puzzles for you and your friends!</description>
+        <image>portal2.jpg</image>
+    </game>
+    <game>
+        <title>God of War</title>
+        <genres>
+            <genre>Action</genre>
+            <genre>Adventure</genre>
+        </genres>
+        <developers>
+            <developer>Santa Monica Studio</developer>
+        </developers>
+        <price>89.95</price>
+        <rating>96</rating>
+        <description>His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. 
+            It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.</description>
+        <image>gow.jpg</image>
+    </game>
+    <game>
+        <title>Beat Saber</title>
+        <genres>
+            <genre>Rhythm</genre>
+            <genre>Virtual Reality</genre>
+        </genres>
+        <developers>
+            <developer>Beat Games</developer>
+        </developers>
+        <price>36.99</price>
+        <rating>96</rating>
+        <description>Beat Saber is a VR rhythm game where you slash the beats of adrenaline-pumping music as they fly towards you, surrounded by a futuristic world.</description>
+        <image>bs.jpg</image>
+    </game>
+    <game>
+        <title>Dota 2</title>
+        <genres>
+            <genre>Multiplayer Online Battle Arena</genre>
+            <genre>Competitive</genre>
+        </genres>
+        <developers>
+            <developer>Valve</developer>
+        </developers>
+        <price>0</price>
+        <rating>82</rating>
+        <description>Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. 
+            With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.</description>
+        <image>dota2.jpg</image>
+    </game>
+    <game>
+        <title>Dead by Daylight</title>
+        <genres>
+            <genre>Horror</genre>
+            <genre>Survival</genre>
+        </genres>
+        <developers>
+            <developer>Behaviour Interactive Inc.</developer>
+        </developers>
+        <price>23.99</price>
+        <rating>81</rating>
+        <description>Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught and killed.</description>
+        <image>dbd.jpg</image>
+    </game>
+    <game>
+        <title>NARAKA: BLADEPOINT</title>
+        <genres>
+            <genre>Battle Royale</genre>
+            <genre>Martial Arts</genre>
+        </genres>
+        <developers>
+            <developer>24 Entertainment</developer>
+        </developers>
+        <price>29.95</price>
+        <rating>78</rating>
+        <description>NARAKA: BLADEPOINT is an up to 60-player PVP mythical action combat experience with martial arts inspired melee combat, gravity defying mobility, 
+            vast arsenals of melee and ranged weapons, legendary customizable heroes with epic abilities - inspired by the legends of the Far East.</description>
+        <image>nb.jpg</image>
+    </game>
+    <game>
+        <title>Red Dead Redemption 2</title>
+        <genres>
+            <genre>Open World</genre>
+            <genre>Adventure</genre>
+        </genres>
+        <developers>
+            <developer>Rockstar Games</developer>
+        </developers>
+        <price>99.95</price>
+        <rating>88</rating>
+        <description>Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, RDR2 is the epic tale of outlaw Arthur Morgan and the infamous Van der Linde gang, 
+            on the run across America at the dawn of the modern age. Also includes access to the shared living world of Red Dead Online.</description>
+        <image>rdr2.jpg</image>
+    </game>
+    <game>
+        <title>Factorio</title>
+        <genres>
+            <genre>Automation</genre>
+            <genre>Base Building</genre>
+            <genre>Resource Management</genre>
+        </genres>
+        <developers>
+            <developer>Wube Software LTD.</developer>
+        </developers>
+        <price>50.00</price>
+        <rating>98</rating>
+        <description>Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. 
+            Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don't really like you.</description>
+        <image>factorio.jpg</image>
+    </game>
+</catalogue>
