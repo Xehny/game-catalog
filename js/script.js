@@ -1,14 +1,16 @@
 var fileName = location.pathname.split("/").slice(-1)
 
 if (fileName == "index.php" || fileName == "") {
+
+    // Declare document elements
     let title = document.getElementById("title");
-    title.addEventListener("click", function() { sort(0); })
+    title.addEventListener("click", function() { sort(1); })
 
     let price = document.getElementById("price");
-    price.addEventListener("click", function() { sort(1); })
+    price.addEventListener("click", function() { sort(2); })
 
     let rating = document.getElementById("rating");
-    rating.addEventListener("click", function() { sort(2); })
+    rating.addEventListener("click", function() { sort(3); })
 
     const search = document.getElementById("SearchBar");
     search.addEventListener("keyup", function() { searching(); })
@@ -29,21 +31,23 @@ if (fileName == "index.php" || fileName == "") {
         form.submit();
     }
 
+    // Add click eventListeners for each game
     for (let game of games) {
         game.addEventListener("click", buttonPressed);
     }
 }
 
-let sortBoolean = new Array(4).fill(false);
-sortBoolean[3] = true;
-sortBoolean[2] = true;
+// Boolean array to determine which sort is currently active
+let sortBoolean = new Array(4).fill(true);
+sortBoolean[1] = true;
 
+// Function to sort the displayed games
 function sort(col) {
-    if(col > 2){
-        alert("wtf")
+    if(col > 3){
+        alert("ERROR: Invalid column selected")
         return;
     }
-    col = col + 1;
+    // Declare variables
     var table, i, rowA, rowB, rowX, unfinished;
     table = document.getElementById("GameTable");
     unfinished = true;
@@ -53,49 +57,51 @@ function sort(col) {
         unfinished = false;
         var rows = table.rows;
 
-        // Loop to go through all rows
+        // Go through each rows
         for (i = 1; i < (rows.length - 1); i++) {
             var restart = false;
 
-            // Fetch 2 elements that need to be compared
+            // Store two rows to compare
             rowA = rows[i].getElementsByTagName("TD")[col];
             rowB = rows[i + 1].getElementsByTagName("TD")[col];
 
-            //Reverse sort
+            // Reverse sort (Descending)
             if(sortBoolean[col]){
-                // Check if rows need to be swapped
+                // Compare the rows
                 if (rowA.innerHTML.toLowerCase() < rowB.innerHTML.toLowerCase())
                 {
-                    // If yes, mark Switch as needed and break loop
+                    // Set rows to swap
                     restart = true;
                     break;
                 }
             }
-            //Forwards sort
+            // Forwards sort (Ascending)
             else if (!sortBoolean[col]){
-                // Check if rows need to be swapped
                 if (rowA.innerHTML.toLowerCase() > rowB.innerHTML.toLowerCase())
                 {
-                    // If yes, mark Switch as needed and break loop
                     restart = true;
                     break;
                 }
             }
         }
+        // Swap rows
         if (restart) {
-            // Function to switch rows and mark switch as completed
+            
             rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
             unfinished = true;
         }
     }
+
+    // Set other sorts to default orientation
     let tempBool = !sortBoolean[col];
-    sortBoolean = new Array(4).fill(false);
-    sortBoolean[3] = true;
-    sortBoolean[2] = true;
+    sortBoolean = new Array(4).fill(true);
+    sortBoolean[1] = true;
     sortBoolean[col] = tempBool;
 
+    // Add arrow to selected row header
     var rowX = rows[0].getElementsByTagName("TH")
     if(col == 1){
+        // Set other row headers to default text
         rowX[2].innerHTML= "Price";
         rowX[3].innerHTML= "Rating";
 
@@ -124,17 +130,20 @@ function sort(col) {
     }
 }
 
+// Searching function
 function searching() {
-    var searchVal, table, tr, td, i, txtValue;
+    // Declare variables
+    var searchVal, table, tr, td, i;
     searchVal = document.getElementById("SearchBar").value;
     table = document.getElementById("GameTable");
     tr = table.getElementsByTagName("TR");
 
+    // Loop through all table rows
     for (i = 1; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("TD")[1];
         if (td) {
-            txtValue = td.innerHTML;
-            if (txtValue.toUpperCase().indexOf(searchVal.toUpperCase()) > -1) {
+            // If searchbar text is in game title display else hide
+            if (td.innerHTML.toUpperCase().indexOf(searchVal.toUpperCase()) > -1) {
                 tr[i].style.display = "";
             } else {
                 tr[i].style.display = "none";
