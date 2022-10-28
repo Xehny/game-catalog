@@ -61,7 +61,6 @@ foreach ($catalogue as $game) {
         else{
             echo "$$cur->price<br><br>";
         }
-        
         echo "Rating: $cur->rating%<br><br>";
         echo "Description:<br> $cur->description<br>";
         echo "</div></div>"

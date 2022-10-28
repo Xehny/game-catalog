@@ -18,6 +18,7 @@ if (fileName == "index.php" || fileName == "") {
     const games = document.getElementsByClassName("game");
 
     const buttonPressed = e => {
+        // Invisible form to post game title
         var form = document.createElement("form");
         form.setAttribute("method", "post");
         form.setAttribute("action", "php/game.php");
