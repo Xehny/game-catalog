@@ -39,7 +39,7 @@ if (fileName == "index.php" || fileName == "") {
 
 // Boolean array to determine which sort is currently active
 let sortBoolean = new Array(4).fill(true);
-sortBoolean[1] = true;
+sortBoolean[1] = false;
 
 // Function to sort the displayed games
 function sort(col) {
@@ -95,7 +95,7 @@ function sort(col) {
     // Set other sorts to default orientation
     let tempBool = !sortBoolean[col];
     sortBoolean = new Array(4).fill(true);
-    sortBoolean[1] = true;
+    sortBoolean[1] = false;
     sortBoolean[col] = tempBool;
 
     // Add arrow to selected row header

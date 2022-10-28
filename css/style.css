@@ -9,7 +9,7 @@
 }
 
 body {
-    width: 50%;
+    width: 60%;
     min-width: 200px;
     margin: auto;
     text-align: center;
@@ -24,6 +24,10 @@ body {
     background: #f1f1f1;
     width: 70%;
     color: black;
+    width: 40%;
+    min-width: 200px;
+    border-radius: 12px;
+    margin-top: 20px;
 }
 
 h1, h4 {
@@ -32,9 +36,9 @@ h1, h4 {
 
 .body {
     font-family: Lato, Arial, Helvetica, sans-serif;
-    display: inline-block;
-    position: relative;
-    vertical-align: bottom;
+    display: grid;
+    width: 80%;
+    margin: auto;
 }
 
 img {
@@ -43,8 +47,16 @@ img {
     border-radius: 12px;
 }
 
-.details {
+.item1 {
+    float: right;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2 {
     text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .button {
@@ -96,6 +108,7 @@ table {
     margin: auto;
     border-spacing: 0 15px;
     border-collapse: separate;
+    width: 60%;
 }
 
 td:first-child {
